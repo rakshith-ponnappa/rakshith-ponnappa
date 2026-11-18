@@ -1,47 +1,47 @@
-### Hi, I'm Rakshith 👋
+### Rakshith S P · Principal Platform Engineer
 
-**Cloud & platform engineer moving into AI deployment.** I've spent years building Azure and AWS landing zones,
-Kubernetes platforms and delivery pipelines for enterprise customers at a managed-services provider. Now I
-take LLM and agent systems to production with the same discipline: guardrails, evals, observability
-and a way back.
+I build and run the platforms enterprises and AI teams depend on: landing zones, Kubernetes, Terraform and secure delivery pipelines on Azure, AWS and GCP, and the sandboxed environments AI agents are trained and evaluated in. 12+ years across banking, retail, telco and government in the UK, US and GCC.
 
-- 🏗️ **Platform:** Azure landing zones, AKS, Terraform/TFE, policy-as-code, GitLab and GitHub CI/CD
-- 🤖 **AI:** multi-agent systems, RAG with retrieval evals, agent-sandbox security testing, LLM gateways
-- 🎯 **Heading towards:** Forward Deployed / AI Platform Engineering
-- 📍 Bengaluru, India · [LinkedIn](https://www.linkedin.com/in/rakshith-siragaje-ponnappa-60809355/)
+- **Enterprise platforms:** senior technical lead at Ensono. Lead architect for State Street's data-centre exit to Azure (500+ VMs with cross-region DR, 3 live cutovers) and the zero-reboot split of a 35,000-resource Terraform estate.
+- **GitLab Professional Services (contract):** one of two engineers upgrading a bank's self-managed GitLab from 12.x towards 19.x, one evidence-gated hop at a time (in progress).
+- **AI agent infrastructure (Turing, contract):** built the sandboxed Linux desktop image computer-use AI agents are trained and evaluated in, ported the evaluation harness to a new sandbox provider and security-tested the sandboxes.
+- **AI projects:** RAG with retrieval evals in CI, multi-agent systems, agent-sandbox conformance testing and LLM gateways (below).
+- **SRE:** two years as PlanHub's freelance SRE and platform engineer: AWS on Terraform, zero-downtime blue/green releases, HIPAA/GDPR-aligned controls.
+
+**[rakshithponnappa.dev](https://rakshithponnappa.dev)**: case studies, an AI assistant with public evals, and my résumé · [LinkedIn](https://www.linkedin.com/in/rakshith-siragaje-ponnappa-60809355/) · Bengaluru, India
 
 ---
 
-#### 🤖 AI and agents
+#### AI and agents
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**agent-sandbox-conformance-kit**](https://github.com/rakshith-ponnappa/agent-sandbox-conformance-kit) | Black-box conformance, network-policy and quota-edge tests for AI agent code sandboxes | Python · Docker |
+| [**local-rag-agent-platform**](https://github.com/rakshith-ponnappa/local-rag-agent-platform) | Local-first RAG service with retrieval evals (Hit@k, MRR) running in CI | FastAPI · Ollama · pytest |
 | [**TalentLens**](https://github.com/rakshith-ponnappa/TalentLens) | Multi-agent resume screening: 11 specialist agents, hybrid scoring, background verification, interview prep | Python · LLMs · SBERT · Streamlit |
 | [**agentic-paper-trader**](https://github.com/rakshith-ponnappa/agentic-paper-trader) | Guard-railed multi-agent paper trader: ensemble LLM votes, deterministic buy gates, no-LLM stop-loss monitor | LangGraph · FinBERT · Alpaca |
-| [**local-rag-agent-platform**](https://github.com/rakshith-ponnappa/local-rag-agent-platform) | Local-first RAG service with retrieval evals (Hit@k, MRR) running in CI | FastAPI · Ollama · pytest |
-| [**agent-sandbox-conformance-kit**](https://github.com/rakshith-ponnappa/agent-sandbox-conformance-kit) | Black-box conformance, network-policy and quota-edge tests for AI agent code sandboxes | Python · Docker |
 | [**vscode-lm-openai-gateway**](https://github.com/rakshith-ponnappa/vscode-lm-openai-gateway) | VS Code extension serving the Language Model API as a local, token-protected OpenAI-compatible endpoint | Node.js · VS Code API |
 | [**shorts-engine**](https://github.com/rakshith-ponnappa/shorts-engine) | YouTube Shorts pipeline with a rights registry, duplicate guardrails and human review for AI content | Python · Whisper · ffmpeg |
 
-#### 🏗️ Platform and cloud
+#### Platform, cloud and web
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**rakshithponnappa.dev**](https://github.com/rakshith-ponnappa/rakshithponnappa.dev) | This portfolio as a product: static site plus edge API, a RAG assistant with public evals, a full test pyramid and CI/CD with live smoke tests and automatic rollback | Astro · Cloudflare Workers · Playwright |
 | [**azure-landing-zone-terraform**](https://github.com/rakshith-ponnappa/azure-landing-zone-terraform) | CAF-aligned landing zone: management groups and policy, hub-spoke, subscription vending, private AKS spoke | Terraform · Azure · AKS |
 | [**stacks-ignite-fbe-lzvending-template-aks**](https://github.com/rakshith-ponnappa/stacks-ignite-fbe-lzvending-template-aks) | Landing-zone vending and AKS template with policy-as-code checks | Terraform · Azure · Checkov |
 | [**gitlab-omnibus-upgrade-playbook**](https://github.com/rakshith-ponnappa/gitlab-omnibus-upgrade-playbook) | Field-tested runbook for multi-hop self-managed GitLab upgrades with zero data loss | GitLab · PostgreSQL · SRE |
 | [**jenkins-k8s-pipeline-lab**](https://github.com/rakshith-ponnappa/jenkins-k8s-pipeline-lab) | 2019 lab: Jenkins agents as ephemeral Kubernetes pods, from parallel browser tests to CI/CD | Jenkins · Kubernetes |
 
-#### 🧰 Tools and side projects
+#### Other
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**fde-coach**](https://github.com/rakshith-ponnappa/fde-coach) | Zero-dependency CLI: 26-week FDE curriculum, study tracker, public ATS job finder | Python stdlib · SQLite |
 | [**bhagamandala-house-3d**](https://github.com/rakshith-ponnappa/bhagamandala-house-3d) | Interactive 3D walkthrough of a Kodagu heritage house, generated by a Python pipeline | Three.js · Python · Pages |
 
 #### Toolbox
 
-[![Stack](https://skillicons.dev/icons?i=azure,aws,terraform,kubernetes,docker,githubactions,gitlab,jenkins,linux,bash,python,fastapi)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=azure,aws,gcp,terraform,kubernetes,docker,githubactions,gitlab,jenkins,linux,bash,python,ts,cloudflare)](https://skillicons.dev)
 
-**AI:** LangGraph · multi-agent orchestration · RAG · evals · Ollama · OpenAI-compatible APIs
-**Platform:** Terraform/TFE · AKS · Helm · Azure Policy · Checkov · Azure DevOps · GitHub Actions · GitLab
+**Platform & SRE:** Terraform/TFE · AKS/EKS/GKE · Helm · Azure Policy · OPA · Checkov · Harness · GitHub Actions · GitLab CI · Prometheus · Dynatrace · New Relic · ELK
+**AI:** agent sandboxes · LLM evaluation · RAG · multi-agent orchestration · LangGraph · Ollama · OpenAI-compatible APIs
