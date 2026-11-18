@@ -8,7 +8,7 @@ I build and run the platforms enterprises and AI teams depend on: landing zones,
 - **AI projects:** RAG with retrieval evals in CI, multi-agent systems, agent-sandbox conformance testing and LLM gateways (below).
 - **SRE:** two years as PlanHub's freelance SRE and platform engineer: AWS on Terraform, zero-downtime blue/green releases, HIPAA/GDPR-aligned controls.
 
-**[rakshithponnappa.dev](https://rakshithponnappa.dev)**: case studies, an AI assistant with public evals, and my résumé · [LinkedIn](https://www.linkedin.com/in/rakshith-siragaje-ponnappa-60809355/) · Bengaluru, India
+**[rakshithponnappa.com](https://rakshithponnappa.com)**: case studies, an AI assistant with public evals, and my résumé · [LinkedIn](https://www.linkedin.com/in/rakshith-siragaje-ponnappa-60809355/) · Bengaluru, India
 
 ---
 
@@ -27,7 +27,7 @@ I build and run the platforms enterprises and AI teams depend on: landing zones,
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**rakshithponnappa.dev**](https://github.com/rakshith-ponnappa/rakshithponnappa.dev) | This portfolio as a product: static site plus edge API, a RAG assistant with public evals, a full test pyramid and CI/CD with live smoke tests and automatic rollback | Astro · Cloudflare Workers · Playwright |
+| [**rakshithponnappa.com**](https://github.com/rakshith-ponnappa/rakshithponnappa.com) | This portfolio as a product: static site plus edge API, a RAG assistant with public evals, a full test pyramid and CI/CD with live smoke tests and automatic rollback | Astro · Cloudflare Workers · Playwright |
 | [**azure-landing-zone-terraform**](https://github.com/rakshith-ponnappa/azure-landing-zone-terraform) | CAF-aligned landing zone: management groups and policy, hub-spoke, subscription vending, private AKS spoke | Terraform · Azure · AKS |
 | [**stacks-ignite-fbe-lzvending-template-aks**](https://github.com/rakshith-ponnappa/stacks-ignite-fbe-lzvending-template-aks) | Landing-zone vending and AKS template with policy-as-code checks | Terraform · Azure · Checkov |
 | [**gitlab-omnibus-upgrade-playbook**](https://github.com/rakshith-ponnappa/gitlab-omnibus-upgrade-playbook) | Field-tested runbook for multi-hop self-managed GitLab upgrades with zero data loss | GitLab · PostgreSQL · SRE |
